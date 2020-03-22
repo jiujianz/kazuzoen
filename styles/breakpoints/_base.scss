@@ -274,8 +274,8 @@ main {
 }
 
 .footer {
-  padding: 60px 0;
-  @extend .content-width;
+  padding: 200px 0;
+  background-color: gainsboro;
 
   &__nav {
     @extend .flex;

@@ -243,7 +243,7 @@
 }
 
 .swiper-slide {
-  height: 500px;
+  height: 87vh;
   overflow: hidden;
 }
 
@@ -980,7 +980,7 @@ img {
   padding-bottom: 80px !important;
 }
 
-.content-width, .header__inner, .introduction, .services, .work__header, .work__container, .footer {
+.content-width, .header__inner, .introduction, .services, .work__header, .work__container {
   width: 90%;
   margin: 0 auto;
   max-width: 1070px;
@@ -1218,7 +1218,8 @@ main {
 }
 
 .footer {
-  padding: 60px 0;
+  padding: 200px 0;
+  background-color: gainsboro;
 }
 
 .footer__nav {
