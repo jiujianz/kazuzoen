@@ -78,8 +78,12 @@ main {
 
 .description {
   @extend .content-width;
+  text-align: center;
   p {
     color: $cWhite;
+  }
+  ul {
+    text-decoration: none;
   }
 }
 

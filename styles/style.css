@@ -280,6 +280,7 @@
   opacity: 1;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  font-size: 20px;
 }
 
 .hero {
@@ -294,7 +295,7 @@
   -webkit-transform: translate(-50%, calc(-50% + 20px));
           transform: translate(-50%, calc(-50% + 20px));
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   z-index: 2;
   opacity: 0;
   -webkit-transition: opacity 0.3s ease 1s, -webkit-transform 0.3s ease 1s;
@@ -1032,8 +1033,16 @@ main {
   transition: transform 0.5s, box-shadow 0.5s, -webkit-transform 0.5s, -webkit-box-shadow 0.5s;
 }
 
+.description {
+  text-align: center;
+}
+
 .description p {
   color: white;
+}
+
+.description ul {
+  text-decoration: none;
 }
 
 .introduction__text {
