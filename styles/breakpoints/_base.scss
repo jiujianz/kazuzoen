@@ -79,6 +79,10 @@ main {
 .description {
   @extend .content-width;
   text-align: center;
+  &__sub-title {
+    font-size: 30px;
+    color: yellow;
+  }
   p {
     color: $cWhite;
   }
@@ -90,6 +94,11 @@ main {
 .introduction {
   &__text {
     color: $cBlack;
+  }
+  &-sub {
+    .red {
+      color: red;
+    }
   }
 }
 
@@ -172,8 +181,6 @@ main {
       transition: transform 0.3s ease 1.6s;
       transform-origin: right;
     }
-
-    
   }
 
   &__sub {

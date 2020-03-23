@@ -178,6 +178,9 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
+  a{
+    color: $cBlack;
+  }
 }
 .btn-info:after{
   width: 100%;
