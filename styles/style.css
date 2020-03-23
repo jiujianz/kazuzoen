@@ -1066,6 +1066,10 @@ main {
   margin-bottom: 0;
 }
 
+.introduction .address {
+  margin-bottom: 0;
+}
+
 .introduction__link {
   list-style: none;
 }
