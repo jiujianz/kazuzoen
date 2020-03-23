@@ -1062,6 +1062,18 @@ main {
   color: red;
 }
 
+.introduction .zip-code {
+  margin-bottom: 0;
+}
+
+.introduction__link {
+  list-style: none;
+}
+
+.introduction__link a {
+  color: black;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -1285,6 +1297,10 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.footer__message {
+  text-align: center;
 }
 
 .side {
