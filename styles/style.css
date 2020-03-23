@@ -1272,9 +1272,9 @@ main {
 }
 
 .footer__nav {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1432,11 +1432,6 @@ Stylesheet: 600px以上のタブレットやモニタで適用
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-  }
-  .footer .logo {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
   }
   .footer__li {
     margin-left: 0;

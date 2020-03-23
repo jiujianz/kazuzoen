@@ -318,7 +318,7 @@ main {
 
   &__nav {
     @extend .flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
   }
