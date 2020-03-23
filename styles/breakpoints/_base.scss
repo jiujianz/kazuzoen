@@ -61,7 +61,7 @@ img {
   position: relative;
   z-index: 0;
   color: $cWhite;
-  background-color: darkseagreen;
+  background-color: darkolivegreen;
 }
 
 main {
@@ -74,6 +74,19 @@ main {
   position: relative;
   z-index: 10;
   transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.description {
+  @extend .content-width;
+  p {
+    color: $cWhite;
+  }
+}
+
+.introduction {
+  &__text {
+    color: $cBlack;
+  }
 }
 
 .header {
@@ -233,6 +246,7 @@ main {
   &__container {
     position: relative;
     z-index: 2;
+    color: $cBlack;
     @extend .flex;
     @extend .content-width;
     @extend .pb-sm;
