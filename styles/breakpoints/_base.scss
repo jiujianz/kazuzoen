@@ -53,9 +53,6 @@ img {
   display: flex;
   flex-direction: column;
 }
-.purple {
-  color: $cWineRed;
-}
 
 #main-content {
   position: relative;
@@ -155,6 +152,9 @@ main {
   & .logo {
     font-size: 38px;
     justify-content: center;
+    &__kazu {
+      font-size: 40px;
+    }
   }
 
   &__inner {
